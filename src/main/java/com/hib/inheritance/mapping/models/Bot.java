@@ -7,5 +7,4 @@ import jakarta.persistence.PrimaryKeyJoinColumn;
 @PrimaryKeyJoinColumn(name="player_id")
 public class Bot extends Player{
     private int rankOfBot;
-
 }
